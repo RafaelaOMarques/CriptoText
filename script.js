@@ -46,3 +46,13 @@ function desencriptar(stringDesencriptada) {
     }
     return stringDesencriptada
 }
+
+
+function copiarTexto() {
+    let textoCopiado = document.querySelector(".mensagem");
+    textoCopiado.select();
+    textoCopiado.setSelectionRange(0, 99999);
+
+    document.execCommand("copy");
+    alert(`O texto foi copiado para área de transferência`)
+}

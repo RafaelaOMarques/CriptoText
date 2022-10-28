@@ -17,7 +17,7 @@
 
     <main>
         <span class="textArea">
-            <section>
+            <section class="sectionCript">
                 <label>Informe abaixo texto a ser convertido:</label>
                 <textarea class="input-texto" cols="55" rows=8 placeholder="Digite o seu texto... "></textarea>
                 <div class="botao">
@@ -25,11 +25,11 @@
                     <button class="descriptografar" onclick="btnDesencriptar()">Descriptografar</button>
                 </div>
             </section>
-            <section>
+            <section class="sectionMsg">
                 <label>Seu texto Criptografado/Descriptografado é:</label>
                 <textarea class="mensagem " cols="55 " rows="8 "></textarea>
                 <div class="botao">
-                    <button class="copyText ">Copiar Texto</button>
+                    <button class="copyText " onclick="copiarTexto()">Copiar Texto</button>
                 </div>
             </section>
         </span>
