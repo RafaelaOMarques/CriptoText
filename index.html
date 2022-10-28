@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Criptotext - Ferramenta de Criptografia e Descriptografia</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+    <header>
+        <h1>CRIPTOTEXT</h1>
+    </header>
+
+    <main>
+        <span class="textArea">
+            <section>
+                <label>Informe abaixo texto a ser convertido:</label>
+                <textarea class="input-texto" cols="55" rows=8 placeholder="Digite o seu texto... "></textarea>
+                <div class="botao">
+                    <button class="criptografar " onclick="btnEncriptar() ">Criptografar</button>
+                    <button class="descriptografar" onclick="btnDesencriptar()">Descriptografar</button>
+                </div>
+            </section>
+            <section>
+                <label>Seu texto Criptografado/Descriptografado é:</label>
+                <textarea class="mensagem " cols="55 " rows="8 "></textarea>
+                <div class="botao">
+                    <button class="copyText ">Copiar Texto</button>
+                </div>
+            </section>
+        </span>
+    </main>
+
+    <footer>
+        <p><strong>Criptotext</strong> uma ferramenta para reforçar a segurança da sua mensagem</p>
+    </footer>
+
+    <script src="script.js "></script>
+
+</body>
+
+
+</html>

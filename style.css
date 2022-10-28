@@ -1,0 +1,115 @@
+/*Cores 
+#ADA8B6
+#2E4756
+
+*/
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: Verdana, Helvetica, sans-serif;
+    background-color: black;
+}
+
+header {
+    width: 100%;
+    padding: 2px;
+    text-align: center;
+    text-justify: space-between;
+    background-image: url("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y3J5cHRvZ3JhcGh5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    border-radius: 10px;
+    background-repeat: no repeat;
+    color: #5b5b58
+}
+
+.textArea {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    margin: 15px;
+}
+
+label {
+    color: white;
+    font-size: 0.8em;
+    align-content: center;
+    padding-top: 50px;
+}
+
+textarea {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin: 10px;
+    padding: 20px;
+    max-width: 90%;
+    line-height: 2;
+    border-radius: 10px;
+    border: 1px solid ADA8B6;
+    box-shadow: 1px 1px 1px gold;
+}
+
+.criptografar,
+.descriptografar {
+    margin-left: 20px;
+    inline-size: 250px;
+    font-size: 1em;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 15px;
+    background-image: url("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y3J5cHRvZ3JhcGh5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.copyText {
+    inline-size: 250px;
+    font-size: 1em;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 15px;
+    background-color: #5b5b58;
+    cursor: pointer;
+}
+
+.botao {
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.criptografar:hover,
+.descriptografar:hover,
+.copyText:hover {
+    background-color: rgb(6, 81, 6);
+    background-image: none;
+}
+
+#textout {
+    color: white;
+    background-image: url("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y3J5cHRvZ3JhcGh5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+}
+
+footer strong {
+    color: gray;
+    text-decoration: underline black;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.8em;
+}
+
+
+/*@media (max-width: 600px) {
+.row {
+-webkit-flex-direction: column;
+flex-direction: column;
+
+
+#challengeonedecodificador2 : por no about do git na opção Topics
